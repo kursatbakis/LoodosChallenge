@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A0C6AA0426691DD100D2621B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA0326691DD100D2621B /* AppDelegate.swift */; };
 		A0C6AA0626691DD100D2621B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA0526691DD100D2621B /* SceneDelegate.swift */; };
 		A0C6AA0826691DD100D2621B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA0726691DD100D2621B /* ViewController.swift */; };
-		A0C6AA0B26691DD100D2621B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C6AA0926691DD100D2621B /* Main.storyboard */; };
 		A0C6AA0D26691DD200D2621B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C6AA0C26691DD200D2621B /* Assets.xcassets */; };
 		A0C6AA1026691DD200D2621B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C6AA0E26691DD200D2621B /* LaunchScreen.storyboard */; };
+		A0C6AA1926691DEE00D2621B /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA1826691DEE00D2621B /* SplashViewController.swift */; };
+		A0C6AA2D266920A800D2621B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0C6AA2C266920A800D2621B /* GoogleService-Info.plist */; };
+		A0C6AA432669237D00D2621B /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0C6AA422669237D00D2621B /* RemoteConfigDefaults.plist */; };
+		A0C6AA46266924F000D2621B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA45266924F000D2621B /* Constants.swift */; };
+		A0C6AA492669268B00D2621B /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA482669268B00D2621B /* UIViewControllerExtensions.swift */; };
+		A0C6AA74266929C600D2621B /* NetworkChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA73266929C600D2621B /* NetworkChecker.swift */; };
+		A0C6AA7726692FBD00D2621B /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA7626692FBD00D2621B /* NotificationNameExtension.swift */; };
+		A0C6AA7A2669369500D2621B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA792669369500D2621B /* MainViewController.swift */; };
+		A0C6AA8026693F6100D2621B /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA7F26693F6000D2621B /* MovieTableViewCell.swift */; };
+		A0C6AA8326693F8B00D2621B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA8226693F8B00D2621B /* Movie.swift */; };
+		A0C6AA9F2669516200D2621B /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA9E2669516200D2621B /* MovieDetailViewController.swift */; };
+		F4D9054EEAC0FE03C9F2901C /* Pods_LoodosChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EBB604FFCA52787712638E /* Pods_LoodosChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50EBB604FFCA52787712638E /* Pods_LoodosChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoodosChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4C9818759DBEE28143F6EF /* Pods-LoodosChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoodosChallenge.debug.xcconfig"; path = "Target Support Files/Pods-LoodosChallenge/Pods-LoodosChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		A0C6AA0026691DD100D2621B /* LoodosChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoodosChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C6AA0326691DD100D2621B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0C6AA0526691DD100D2621B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A0C6AA0726691DD100D2621B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A0C6AA0A26691DD100D2621B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0C6AA0C26691DD200D2621B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0C6AA0F26691DD200D2621B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0C6AA1126691DD200D2621B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C6AA1826691DEE00D2621B /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		A0C6AA2C266920A800D2621B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A0C6AA422669237D00D2621B /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
+		A0C6AA45266924F000D2621B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A0C6AA482669268B00D2621B /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		A0C6AA73266929C600D2621B /* NetworkChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkChecker.swift; sourceTree = "<group>"; };
+		A0C6AA7626692FBD00D2621B /* NotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
+		A0C6AA792669369500D2621B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A0C6AA7F26693F6000D2621B /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		A0C6AA8226693F8B00D2621B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		A0C6AA9E2669516200D2621B /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		B7717D6472F69D74624BFE0C /* Pods-LoodosChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoodosChallenge.release.xcconfig"; path = "Target Support Files/Pods-LoodosChallenge/Pods-LoodosChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D9054EEAC0FE03C9F2901C /* Pods_LoodosChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CE2284F4239A3FEF427D736 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F4C9818759DBEE28143F6EF /* Pods-LoodosChallenge.debug.xcconfig */,
+				B7717D6472F69D74624BFE0C /* Pods-LoodosChallenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5DC4735CCB77038C87AE4CFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50EBB604FFCA52787712638E /* Pods_LoodosChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A0C6A9F726691DD100D2621B = {
 			isa = PBXGroup;
 			children = (
 				A0C6AA0226691DD100D2621B /* LoodosChallenge */,
 				A0C6AA0126691DD100D2621B /* Products */,
+				2CE2284F4239A3FEF427D736 /* Pods */,
+				5DC4735CCB77038C87AE4CFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +100,23 @@
 		A0C6AA0226691DD100D2621B /* LoodosChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				A0C6AA2C266920A800D2621B /* GoogleService-Info.plist */,
 				A0C6AA0326691DD100D2621B /* AppDelegate.swift */,
 				A0C6AA0526691DD100D2621B /* SceneDelegate.swift */,
 				A0C6AA0726691DD100D2621B /* ViewController.swift */,
-				A0C6AA0926691DD100D2621B /* Main.storyboard */,
 				A0C6AA0C26691DD200D2621B /* Assets.xcassets */,
 				A0C6AA0E26691DD200D2621B /* LaunchScreen.storyboard */,
 				A0C6AA1126691DD200D2621B /* Info.plist */,
+				A0C6AA1826691DEE00D2621B /* SplashViewController.swift */,
+				A0C6AA422669237D00D2621B /* RemoteConfigDefaults.plist */,
+				A0C6AA45266924F000D2621B /* Constants.swift */,
+				A0C6AA482669268B00D2621B /* UIViewControllerExtensions.swift */,
+				A0C6AA73266929C600D2621B /* NetworkChecker.swift */,
+				A0C6AA7626692FBD00D2621B /* NotificationNameExtension.swift */,
+				A0C6AA792669369500D2621B /* MainViewController.swift */,
+				A0C6AA7F26693F6000D2621B /* MovieTableViewCell.swift */,
+				A0C6AA8226693F8B00D2621B /* Movie.swift */,
+				A0C6AA9E2669516200D2621B /* MovieDetailViewController.swift */,
 			);
 			path = LoodosChallenge;
 			sourceTree = "<group>";
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0C6AA1426691DD200D2621B /* Build configuration list for PBXNativeTarget "LoodosChallenge" */;
 			buildPhases = (
+				2C1230914FE26F29055117BA /* [CP] Check Pods Manifest.lock */,
 				A0C6A9FC26691DD100D2621B /* Sources */,
 				A0C6A9FD26691DD100D2621B /* Frameworks */,
 				A0C6A9FE26691DD100D2621B /* Resources */,
+				459EE67D941B47BA5EED1D65 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,35 +181,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0C6AA1026691DD200D2621B /* LaunchScreen.storyboard in Resources */,
+				A0C6AA432669237D00D2621B /* RemoteConfigDefaults.plist in Resources */,
+				A0C6AA2D266920A800D2621B /* GoogleService-Info.plist in Resources */,
 				A0C6AA0D26691DD200D2621B /* Assets.xcassets in Resources */,
-				A0C6AA0B26691DD100D2621B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C1230914FE26F29055117BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoodosChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		459EE67D941B47BA5EED1D65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoodosChallenge/Pods-LoodosChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoodosChallenge/Pods-LoodosChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoodosChallenge/Pods-LoodosChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0C6A9FC26691DD100D2621B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0C6AA46266924F000D2621B /* Constants.swift in Sources */,
+				A0C6AA8326693F8B00D2621B /* Movie.swift in Sources */,
 				A0C6AA0826691DD100D2621B /* ViewController.swift in Sources */,
 				A0C6AA0426691DD100D2621B /* AppDelegate.swift in Sources */,
+				A0C6AA9F2669516200D2621B /* MovieDetailViewController.swift in Sources */,
 				A0C6AA0626691DD100D2621B /* SceneDelegate.swift in Sources */,
+				A0C6AA74266929C600D2621B /* NetworkChecker.swift in Sources */,
+				A0C6AA492669268B00D2621B /* UIViewControllerExtensions.swift in Sources */,
+				A0C6AA7A2669369500D2621B /* MainViewController.swift in Sources */,
+				A0C6AA1926691DEE00D2621B /* SplashViewController.swift in Sources */,
+				A0C6AA8026693F6100D2621B /* MovieTableViewCell.swift in Sources */,
+				A0C6AA7726692FBD00D2621B /* NotificationNameExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A0C6AA0926691DD100D2621B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0C6AA0A26691DD100D2621B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A0C6AA0E26691DD200D2621B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +383,7 @@
 		};
 		A0C6AA1526691DD200D2621B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F4C9818759DBEE28143F6EF /* Pods-LoodosChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +403,7 @@
 		};
 		A0C6AA1626691DD200D2621B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7717D6472F69D74624BFE0C /* Pods-LoodosChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
