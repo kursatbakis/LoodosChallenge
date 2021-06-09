@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A0C6AA0426691DD100D2621B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA0326691DD100D2621B /* AppDelegate.swift */; };
 		A0C6AA0626691DD100D2621B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA0526691DD100D2621B /* SceneDelegate.swift */; };
-		A0C6AA0826691DD100D2621B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA0726691DD100D2621B /* ViewController.swift */; };
 		A0C6AA0D26691DD200D2621B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C6AA0C26691DD200D2621B /* Assets.xcassets */; };
 		A0C6AA1026691DD200D2621B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C6AA0E26691DD200D2621B /* LaunchScreen.storyboard */; };
 		A0C6AA1926691DEE00D2621B /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA1826691DEE00D2621B /* SplashViewController.swift */; };
@@ -18,7 +17,6 @@
 		A0C6AA46266924F000D2621B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA45266924F000D2621B /* Constants.swift */; };
 		A0C6AA492669268B00D2621B /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA482669268B00D2621B /* UIViewControllerExtensions.swift */; };
 		A0C6AA74266929C600D2621B /* NetworkChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA73266929C600D2621B /* NetworkChecker.swift */; };
-		A0C6AA7726692FBD00D2621B /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA7626692FBD00D2621B /* NotificationNameExtension.swift */; };
 		A0C6AA7A2669369500D2621B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA792669369500D2621B /* MainViewController.swift */; };
 		A0C6AA8026693F6100D2621B /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA7F26693F6000D2621B /* MovieTableViewCell.swift */; };
 		A0C6AA8326693F8B00D2621B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6AA8226693F8B00D2621B /* Movie.swift */; };
@@ -32,7 +30,6 @@
 		A0C6AA0026691DD100D2621B /* LoodosChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoodosChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C6AA0326691DD100D2621B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0C6AA0526691DD100D2621B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A0C6AA0726691DD100D2621B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0C6AA0C26691DD200D2621B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0C6AA0F26691DD200D2621B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0C6AA1126691DD200D2621B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +39,6 @@
 		A0C6AA45266924F000D2621B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A0C6AA482669268B00D2621B /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		A0C6AA73266929C600D2621B /* NetworkChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkChecker.swift; sourceTree = "<group>"; };
-		A0C6AA7626692FBD00D2621B /* NotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
 		A0C6AA792669369500D2621B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A0C6AA7F26693F6000D2621B /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		A0C6AA8226693F8B00D2621B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -103,7 +99,6 @@
 				A0C6AA2C266920A800D2621B /* GoogleService-Info.plist */,
 				A0C6AA0326691DD100D2621B /* AppDelegate.swift */,
 				A0C6AA0526691DD100D2621B /* SceneDelegate.swift */,
-				A0C6AA0726691DD100D2621B /* ViewController.swift */,
 				A0C6AA0C26691DD200D2621B /* Assets.xcassets */,
 				A0C6AA0E26691DD200D2621B /* LaunchScreen.storyboard */,
 				A0C6AA1126691DD200D2621B /* Info.plist */,
@@ -112,7 +107,6 @@
 				A0C6AA45266924F000D2621B /* Constants.swift */,
 				A0C6AA482669268B00D2621B /* UIViewControllerExtensions.swift */,
 				A0C6AA73266929C600D2621B /* NetworkChecker.swift */,
-				A0C6AA7626692FBD00D2621B /* NotificationNameExtension.swift */,
 				A0C6AA792669369500D2621B /* MainViewController.swift */,
 				A0C6AA7F26693F6000D2621B /* MovieTableViewCell.swift */,
 				A0C6AA8226693F8B00D2621B /* Movie.swift */,
@@ -238,7 +232,6 @@
 			files = (
 				A0C6AA46266924F000D2621B /* Constants.swift in Sources */,
 				A0C6AA8326693F8B00D2621B /* Movie.swift in Sources */,
-				A0C6AA0826691DD100D2621B /* ViewController.swift in Sources */,
 				A0C6AA0426691DD100D2621B /* AppDelegate.swift in Sources */,
 				A0C6AA9F2669516200D2621B /* MovieDetailViewController.swift in Sources */,
 				A0C6AA0626691DD100D2621B /* SceneDelegate.swift in Sources */,
@@ -247,7 +240,6 @@
 				A0C6AA7A2669369500D2621B /* MainViewController.swift in Sources */,
 				A0C6AA1926691DEE00D2621B /* SplashViewController.swift in Sources */,
 				A0C6AA8026693F6100D2621B /* MovieTableViewCell.swift in Sources */,
-				A0C6AA7726692FBD00D2621B /* NotificationNameExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
